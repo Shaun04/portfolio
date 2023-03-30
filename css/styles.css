@@ -390,14 +390,16 @@ body {
 
 /* mobile, tablet */
 @media screen and (max-width: 768px) {
-  /* show nav open icon */
-  .nav-links {
-    display: none;
-  }
-  .navbar .nav-link-btn {
-    display: block;
+
+  .navbar{
+    flex-direction: column;
+    text-align: center;
+    font-size: 79%;
   }
 
+  .nav-links{
+    padding-top:20px;
+  }
 
   /* section hero */
   .section-hero {
