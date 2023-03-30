@@ -398,14 +398,16 @@ body {
     display: block;
   }
 
+
   /* section hero */
   .section-hero {
     margin-top: 40px;
     margin-left: 30px;
   }
   .section-hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
+
   /* section hero */
 
   /* section: technologies */
