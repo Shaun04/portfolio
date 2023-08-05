@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Redacted+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Redacted+Script&display=swap");
 
 * {
   padding: 0;
@@ -26,10 +26,9 @@ body {
 }
 
 .logo-font h1 {
-    font-family: 'Redacted Script', cursive;
-    font-size: 3em;
-    color: white;
-    
+  font-family: "Redacted Script", cursive;
+  font-size: 3em;
+  color: white;
 }
 
 .mt-20 {
@@ -390,15 +389,14 @@ body {
 
 /* mobile, tablet */
 @media screen and (max-width: 768px) {
-
-  .navbar{
+  .navbar {
     flex-direction: column;
     text-align: center;
     font-size: 79%;
   }
 
-  .nav-links{
-    padding-top:20px;
+  .nav-links {
+    padding-top: 20px;
   }
 
   /* section hero */
